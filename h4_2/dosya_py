@@ -1,0 +1,7 @@
+d= open('dosya.xxx', 'a') # vscode için proje klasöründe
+d= open('../dosya.xxx', 'a') # vscode için proje klasörünin bir üst klasöründe
+d= open('deneme/dosya.xxx', 'a') # varsa deneme isimli klasöre
+d= open('D:/deneme/dosya.xxx', 'a') # varsa deneme isimli klasöre
+d= open('dosya.xxx', 'a') # vscode için proje klasöründe
+d.write('Merhaba')
+    
